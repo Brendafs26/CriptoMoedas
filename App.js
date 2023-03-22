@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View} from "react-native";
-import HomeScreen from './src/screens/HomeScreen';
+import CoinDetailedScreen from './src/screens/CoinDetailedScreen';
 
 
 export default function App() {
@@ -8,7 +8,8 @@ export default function App() {
    
  <View style={styles.container}>
   
-   <HomeScreen />
+   <CoinDetailedScreen />
+   
 
     </View>
   );
