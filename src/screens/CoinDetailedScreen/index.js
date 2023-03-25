@@ -28,7 +28,7 @@ const CoinDetailedScreen = () => {
             <Text style={styles.currentPrice}>${current_price.usd}</Text>
           
         </View>
-        <Text style={{color:'white',fontSize:17}}>{price_change_percentage_24 .toFixed(2)}%</Text>
+        <Text style={{color:'white',fontSize:17}}>{}%</Text>
         </View>
 
      </View>
